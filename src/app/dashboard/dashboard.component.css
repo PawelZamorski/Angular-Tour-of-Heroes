@@ -57,7 +57,7 @@ h4 {
     padding: 10px 0;
 }
 
-.grid-pad > [class*='col-']:last-of-type {
+.grid-pad > [class*='col-']:last-of-type {  /* Selects all [class*='col-'] elements where the parent is element with class 'grid-pad'*/
     padding-right: 20px;
  }
 
