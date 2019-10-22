@@ -1,3 +1,4 @@
+/* JavaScript imports */
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -10,6 +11,7 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
+/* the AppModule class with the @NgModule decorator */
 @NgModule({
   declarations: [
     AppComponent,
